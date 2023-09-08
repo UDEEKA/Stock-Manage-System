@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="498.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.stockmanage102Udeeka.controller.CustomerFormController">
+   <children>
+      <AnchorPane fx:id="rootCustomerManage" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="498.0">
+         <children>
+            <Label layoutX="146.0" layoutY="22.0" text="Customer Manage" textFill="#d90d0d" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField layoutX="14.0" layoutY="104.0" prefHeight="35.0" prefWidth="214.0" promptText="Customer ID" />
+            <TextField layoutX="262.0" layoutY="104.0" prefHeight="35.0" prefWidth="214.0" promptText="Customer Name" />
+            <TextField layoutX="14.0" layoutY="164.0" prefHeight="35.0" prefWidth="214.0" promptText="Customer Address" />
+            <TextField layoutX="262.0" layoutY="164.0" prefHeight="35.0" prefWidth="214.0" promptText="Customer Tel No" />
+            <Button layoutX="344.0" layoutY="274.0" mnemonicParsing="false" style="-fx-background-color: magenta;" text="Save" textFill="#5b1212" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="262.0" layoutY="274.0" mnemonicParsing="false" style="-fx-background-color: Orange;" text="Clear" textFill="#5b1212" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="187.0" layoutY="274.0" mnemonicParsing="false" onAction="#btnBackOnAction" style="-fx-background-color: black;" text="Back" textFill="#e3dcdc" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
